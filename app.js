@@ -23,7 +23,7 @@
                 {
                     name: 'otherwise',
                     url: '/',
-                    template: '<h2>THIS IS THE OTHERWISE PAGE. CONGRATULATIONS.</h2>'
+                    templateUrl: 'template/otherwise.html'
                 }
             ];
 
