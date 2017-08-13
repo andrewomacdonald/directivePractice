@@ -1,0 +1,1 @@
+Just practicing serving up some files with node.js and using a directive to display different data using the same html template but with different controllers. Nothing much to see.
