@@ -1,12 +1,12 @@
 <div>
     <h3>HELLLLLOOOOO!!!!!!</h3>
-    <button ng-click="changeColor(); addCustomer();">i am a root element</button>
+    <button ng-click="changeFont(); addCustomer()">Change the font on the page!</button>
 
     <h3>Name: {{customer.name}} <br>
     Street: {{customer.street}}
     </h3>
 
-    <button ng-click="changeColor(); changeData();">Change Customer Name</button>
+    <button ng-click="changeData();">Change Customer Name</button>
 
     <b ng-repeat="user in customers">
         {{user.name}}<br>

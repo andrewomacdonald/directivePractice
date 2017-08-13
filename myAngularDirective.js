@@ -17,7 +17,7 @@
         function link(scope, element, attrs) {
             var colorFlag = true;
 
-            scope.changeColor = function() {
+            scope.changeFont = function() {
                 colorFlag = !colorFlag;
                 if(colorFlag) {
                     element.css('font-family', 'Times New Roman');
